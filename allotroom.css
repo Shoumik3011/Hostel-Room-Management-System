@@ -1,0 +1,104 @@
+
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color:  #fff;
+    background: url(img60561-Reykjavik-City-Hostel-Iceland-.jpg);
+    background-size:cover;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1
+{
+  width:100%;
+  position:top;
+  margin-top:-8; 
+  margin-left:-10; 
+  background-color:maroon;
+  padding:30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+p
+{
+    text-transform:none;
+    text-align:right;
+    margin-top: -25;
+    margin-right: 30;
+}
+
+
+
+h4
+{
+    text-transform:none;
+    text-align:right;
+    margin-top: -45;
+    margin-right: 30;
+    font-size: 20;
+    
+}
+
+.container
+{
+    height:500px;
+    width:600px;
+    margin-left:450px; 
+    color:white;
+    background-color: rgba(70, 69, 69, 0.95);
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:5px;
+    border:5px solid black;
+    text-align:center;
+}
+
+.container p{
+  margin-top:10px;
+  margin-left:35px;
+  margin-right:120px;
+  margin-bottom:10px;
+  padding: 5px;
+
+    
+}
+.container input[type=text]
+{   text-align:center;
+    padding:3px;
+    margin:10px;
+    width:65%;
+}
+input[type=submit]
+{
+    border:none;
+    width:120px;
+    background:black;
+    color:white;
+    font-size: 16px;
+    line-height: 15px;
+    padding : 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin:20px 10px 0 0;
+}
+input[type=submit]:hover
+{
+color:black;
+background-color: #fff;
+}
+input[type=text]
+{
+    padding:5px;
+    border-radius: 5px;
+}
+a
+{
+  color:white;
+  text-decoration:blink;
+}
+a:hover{
+  color:skyblue;
+}

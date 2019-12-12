@@ -1,0 +1,113 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+h1
+{
+  width:100%;
+  position:top;
+  margin-top:-8px; 
+  margin-left:-10;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  background-color:maroon;
+  padding:50px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 35px;
+  text-align: center;
+}
+  #outerbox
+  {
+    width:100%;
+    overflow: hidden;
+  }
+  #sliderbox
+  {
+    position: relative;
+    width:5000px;
+    animation-name:Jamal;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+  }
+  #sliderbox img
+  {
+    float:left;
+
+  }
+  @keyframes Jamal{
+    from
+    {
+      left:0px;
+    }
+    0%
+    {
+      left:0px;
+    }
+    20%
+    {
+      left:0px;
+    }
+    25%
+    {
+      left:-600px;
+    }
+    45%
+    {
+      left:-600px;
+    }
+    50%
+    {
+      left:-1200px;
+    }
+    70%
+    {
+      left:-1200px;
+    }
+    75%
+    {
+      left:-1800px;
+    }
+    95%
+    {
+      left:-1800px;
+    }
+    100%
+    {
+      left:-2400px;
+    }
+  }
+  input[type=button]
+{
+    border: none;
+    background:black;
+    color:white;
+    font-size:16px;
+    width:155px;
+    padding: 10px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top:5px;
+}
+
+input[type=button]:hover
+{
+    background:white;
+    color: black;
+}
+.goto
+{
+  background: rgba(114, 112, 112, 0.95);
+    padding: 40px;
+    width:95%;
+    height: 30px;
+    margin-left: 10px;
+    margin: 0 auto;
+    margin-top: 0px;
+    text-align: center;
+    height: 50px;
+}

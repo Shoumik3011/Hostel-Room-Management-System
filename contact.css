@@ -1,0 +1,109 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    background: url(e_contact_us.jpg);
+    background-size:cover;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1
+{
+  width:100%;
+  color:#fff;
+  position:top;
+  margin-top:-8; 
+  margin-left:-10; 
+  background-color:maroon;
+  padding:30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.container
+{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height:75%;
+    margin-top:20px;
+    padding:20px 120px;
+}
+
+.contact-box
+{
+    max-width: 600px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+.left
+{
+    padding: 50px 100px;
+}
+h2
+{
+    position: relative;
+    padding-bottom:20px;
+    margin-bottom:25px;
+}
+h2:after
+{
+    content:'';
+    position:absolute;
+    left:175px;
+    bottom:0;
+    transform:translate(-50%);
+    height:4px;
+    width:120px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+
+}
+.field
+{
+    color:black;
+    width:350px;
+    outline:none;
+    border:2px solid rgba(0,0,0,0) ;
+    background-color: rgba(230,230,230,0.6);
+    font-size: 1.1rem;
+    margin-bottom:22px;
+    transition: .3s;
+}
+.field:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.field:focus{
+    background-color: #fff;
+    border:2px solid rgba(30,85,250,0.47);
+}
+.area
+{
+   min-height: 130px;
+}
+input[type=button]
+{
+    width:100%;
+    padding:0.5rem 1rem;
+    font-size:1.1rem;
+    background-color: #2ecc71;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+}
+input[type=button]:hover{
+    background-color: #27ae60;
+}

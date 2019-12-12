@@ -1,0 +1,65 @@
+<html>
+<head>
+<h1>HOSTEL ROOM MANAGEMENT SYSTEM</h1>
+<title>Untitled Document</title>
+<link href="forg.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+<style> #msg
+    {
+        visibility: hidden;
+        min-width: 250px;
+        background-color:white;
+        color: #000;
+        text-align: center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 1;
+        right: 35%;
+        top: 100px;
+        font-size: 17px;
+        margin-right: 75px;
+
+    }
+    #msg.show{
+        visibility: visible;
+        -webkit-animation: fadein 0.5s,fadeout 0.5s 2.5s;
+        animation: fadein 0.5s,fadeout 0.5s 2.5s;
+    }
+    @-webkit-keyframes fadein{
+        from { top:0; opacity: 0;}
+        to {top: 100px; opacity: 1;}
+    }
+    @keyframes fadein{
+        from { top:0; opacity: 0;}
+        to {top: 100px; opacity: 1;}
+    }
+    @-webkit-keyframes fadeout{
+        from { top:100px; opacity: 1;}
+        to {top: 0; opacity: 0;}
+    }
+    @keyframes fadeout{
+        from { top:100px; opacity: 1;}
+        to {top: 0; opacity: 0;}
+    }
+</style>
+</head>
+<body>
+<div class="forget">
+<form>
+<h2 align="center" style="color:#fff;">Forgot Password</h2>
+<h5 style="font-size: 14px; color:yellow;">Enter your email to get a link to reset your Password.</h5>
+<input type="text" name="username" placeholder="Enter your email"/><br /><br />
+<input type="button" value="Send" onclick="myFunction()" /><br /><br /><br />
+<a href="login.html" style="text-decoration:none;">Go Back to Home Page</a><br /><br />
+
+<script>
+function myFunction()
+{
+   alert("Link sent to your email successfully!!")
+}
+</script>
+</form>
+</div>
+</body>
+</html>

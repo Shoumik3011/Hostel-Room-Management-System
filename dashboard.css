@@ -1,0 +1,144 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color:  #fff;
+    background: url(hostel-belgrade-eye-03.jpg);
+    background-size: cover;
+}
+h1
+{
+  width:100%;
+  position:top;
+  margin-top:-8; 
+  margin-left:0; 
+  background-color:maroon;
+  padding:30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.menu-bar
+{
+  background:black;
+  text-align: center;
+  height: 70px;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style: none;
+    color:#fff;
+    font-size: 18px;
+}
+.menu-bar ul li
+{
+    width:200px;
+    margin:10px;
+    padding:15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:#fff;
+}
+.active , .menu-bar ul li:hover
+{
+    background: rgb(54, 53, 53);
+    border-radius: 2px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display:block;
+    position:absolute;
+    background: black;
+    margin-top:15px;
+    margin-left:-15px; 
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width:180px;
+    padding: 10px;
+    border-bottom:1px dotted #fff;
+    background: transparent;
+    border-radius:0;
+    text-align:left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color:grey;
+}
+.services
+{
+    background: rgba(82, 81, 81,0.8);
+    text-align: center;
+    height: 80.5%;
+}
+.services h2
+{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom:4px solid white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+
+}
+.cen
+{
+    max-width: 1200px;
+    margin:auto;
+    overflow: hidden;
+    padding:20px;
+}
+.service
+{
+    display:inline-block;
+    width: calc(100% /2);
+    margin: 0 -2px;
+    padding:20px;
+    box-sizing: border-box;
+    cursor: pointer;
+     transition: 0.4s;   
+}
+.service:hover{
+    background: lightgray;
+    color:black;
+}
+.service i{
+    font-size: 20px; 
+    margin-bottom: 10px;
+}
+.service h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin:0;
+}
+.service p
+{ 
+    font-size: 15px;
+    font-weight: 500;
+}

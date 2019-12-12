@@ -1,0 +1,91 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color:  #fff;
+    background: url(hostel-belgrade-eye-03.jpg);
+    background-size: cover;
+}
+h1
+{
+  width:100%;
+  position:top;
+  margin-top:-8; 
+  margin-left:-10; 
+  background-color:maroon;
+  padding:30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+a
+{
+   color:yellow;
+   text-decoration: blink;
+   font-family: 'Segoe UI', Tahoma, Geneva,sans-serif;
+   margin-left: 35px;
+}
+.forget
+{
+    background: rgba(82, 81, 81,0.95);
+    padding: 40px;
+    width: 240px;
+    height: 340px;;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+h2
+{
+    margin-top: 28px;
+    margin-left: 10px;
+}
+input[type=text]
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom:1px  solid #fff;
+    font-family: 'Play',sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 20px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    background: white;
+    color:black;
+    font-size:16px;
+    width:155px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top:15px;
+}
+
+input[type=button]:hover
+{
+    background:black;
+    color: white;
+}
+::placeholder {  
+    color : aliceblue;
+    opacity :0.8; 
+} 
+a
+{
+   color:yellow;
+   text-decoration:blink;
+
+}
+a:hover
+{
+  color:skyblue;
+
+}

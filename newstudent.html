@@ -1,0 +1,75 @@
+<html>
+<head>
+<style>
+body {
+    overflow-x:hidden;
+}
+</style>
+<h1>HOSTEL ROOM MANAGEMENT SYSTEM
+        <p>New Student Registration</p>
+</h1>
+
+<title>New Student Registration</title>
+<link href="newstudent.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+<body>
+
+<form action="insert.php" method="POST">
+    <table align = "center" cellpadding="15" width=600px height=600px>
+        <tr>
+            <td>Roll Number :</td>
+            <td><input type="text" name="rollnumber"  placeholder="Enter 16-digit Roll Number of the Student" size="35" required></td>
+        </tr>
+         <tr>
+             <td>Name :</td>
+             <td><input type="text" name="name"  placeholder="Enter name of the Student" size="35" required></td>
+         </tr>
+         <tr>
+                <td>Date of Birth :</td>
+                <td><input style="width:260px;" type="date" name="dob"  placeholder="Enter date of birth of the Student " required></td>
+            </tr>
+            <tr>
+                    <td>Department :</td>
+                    <td><input type="text" name="dept"  placeholder="Enter the Department" size="35" required></td>
+                </tr>
+                <tr>
+                        <td>Year :</td>
+                        <td><input type="text" name="year"  placeholder="Enter the year of the Student" size="35" required></td>
+                    </tr>
+                    <tr>
+                        <td>Current CPI :</td>
+                        <td><input type="text" name="cpi"  placeholder="Enter the current CPI of the Student" size="35" required></td>
+                    </tr>
+                    <tr>
+                            <td>Email Id:</td>
+                            <td><input type="email" name="emailid"  placeholder="Enter Email ID of the Student" size="35" required></td>
+                        </tr>
+                        <tr>
+                                <td>Address :</td>
+                                <td><textarea style="width:260px;" rows="6" cols="25"  name="address" placeholder="Enter Student's Address" required></textarea></td>
+                                
+                            </tr>
+                            <tr>
+                                    <td>Mobile Number :</td>
+                                    <td><input style="width:260px;" type="text" name="phone"  placeholder="Enter Mobile Number" required></td>
+                                </tr>
+                            <tr>
+                                <td align="center" colspan="2" >
+                                    <input type="submit" value="Register">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="dashboard.html"><input type="button" value="Dashboard"></a>
+    
+
+                                </td>
+                            </tr>
+
+
+
+    </table>
+</form>
+
+
+
+
+    </body>
+    </html>
